@@ -2,7 +2,7 @@
 
 
 import React from 'react';
-import {SafeAreaView, ScrollView, StyleSheet, useColorScheme,View,ImageBackground} from 'react-native';
+import {SafeAreaView, ScrollView, StyleSheet, useColorScheme,View,ImageBackground, Alert} from 'react-native';
 import {Images} from './Images'
 import styled from 'styled-components/native';
 
@@ -10,7 +10,7 @@ export const AddToCart=()=>
 {
     return(
         <View>
-   <AddToCartView>
+   <AddToCartView onPress={()=>Alert.alert("Added Successfully!")}>
   <Text>Add To Cart</Text>
   </AddToCartView>
       </View>
@@ -25,7 +25,7 @@ color:white;
 font-weight:bold;
 `;
 
-const AddToCartView = styled.View`
+const AddToCartView = styled.TouchableOpacity`
 	width: 80%;
 	height: 50px;
     margin:auto;

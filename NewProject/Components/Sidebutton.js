@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import {SafeAreaView, ScrollView, StyleSheet, useColorScheme,View,ImageBackground, Alert} from 'react-native';
 import {Images} from './Images'
 import styled from 'styled-components/native';
-
+import { Pineapple } from './Pineapple';
 export const Sidebutton=()=>
 {
     let count=1;

@@ -6,6 +6,7 @@ import styled from 'styled-components/native';
 
 export const Pineapple=()=>
 {
+    
     return(
     <View>
      <PineappleImg source={require('../Components/Images/fruitimg.png')} />
