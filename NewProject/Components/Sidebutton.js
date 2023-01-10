@@ -4,6 +4,7 @@ import {SafeAreaView, ScrollView, StyleSheet, useColorScheme,View,ImageBackgroun
 import {Images} from './Images'
 import styled from 'styled-components/native';
 import { Pineapple } from './Pineapple';
+
 export const Sidebutton=()=>
 {
     let count=1;
